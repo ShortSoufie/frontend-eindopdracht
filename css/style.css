@@ -90,11 +90,23 @@ header {
     background-position: center;
 }
 
-header h1, h2 {
+header h1 {
     font-family: 'Righteous', cursive;
     font-style: italic;
     margin: 0;
-    font-size: 4vw;
+    font-size: 4rem;
+}
+
+header h2 {
+    font-family: 'Righteous', cursive;
+    font-style: italic;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
 }
 
 header p {
@@ -128,18 +140,6 @@ header p {
 
 .header-buttons a:hover {
     background-color: #006680;
-}
-
-@media only screen and (max-width: 1200px) {
-    header h1, h2 {
-        font-size: 6vw;
-    }
-}
-
-@media only screen and (max-width: 840px) {
-    header h1, h2 {
-        font-size: 6vw;
-    }
 }
 
 /* Main */
@@ -215,7 +215,7 @@ main {
     justify-content: center;
     font-family: 'Righteous', cursive;
     font-style: italic;
-    font-size: 5vw;
+    font-size: 5rem;
 }
 
 .form-section {
